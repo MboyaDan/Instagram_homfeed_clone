@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/uploader_pro_pic"
+                android:layout_width="19dp"
+                android:layout_height="35dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/user2"
+                app:civ_border_color="@android:color/darker_gray"
+                app:civ_border_width="1dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/tv_uploader_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Mboya.Danroylex"
+                android:textColor="@android:color/black"
+                android:textSize="14dp"
+                android:textStyle="bold"></TextView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bt_c"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="follow"
+                android:textAllCaps="true"
+                android:textSize="10sp"></Button>
+
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/post_pic"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/post1"></ImageView>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/like"></ImageView>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/comment"></ImageView>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/send"></ImageView>
+
+        <ImageView
+            android:layout_width="27dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/bookmark"></ImageView>
+    </LinearLayout>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/like_pro_pic"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/user3"></de.hdodenhof.circleimageview.CircleImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Liked by"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:id="@+id/liker_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Richard"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"></TextView>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="15dp"
+                android:text="and"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tv_likes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="24 others"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_uploader_name_caption"
+            android:layout_width="85dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="14dp"
+            android:layout_marginRight="20dp"
+            android:text="Mboya.Danroylex"
+            android:textColor="#000000"/>
+        <TextView
+            android:id="@+id/tv_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="95dp"
+            android:layout_marginRight="20dp"
+            android:text="#mboya#kalama#peace#elizaphan#Karisa"
+            android:textColor="#000080"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_pro_pic"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/user2"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@android:color/darker_gray"></de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="14dp"
+            android:text="Add a comment"
+            android:textSize="16dp"></TextView>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="8 HOURS AGO"
+        android:layout_marginLeft="10dp"></TextView>
+</LinearLayout>
+
+</RelativeLayout>
